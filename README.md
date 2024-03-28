@@ -1,4 +1,4 @@
-# Basic Usage of Triton with Pytorch Models
+# Basic Usage of Triton with Pytorch-ONNX Models
 
 ## Tritonserver
 
