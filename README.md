@@ -26,7 +26,7 @@ Sample `config.pbtxt`
 ``` txt
 name: "model_test"
 platform: "onnxruntime_onnx"
-max_batch_size : 4
+max_batch_size: 4
 input [
   {
     name: "input"
