@@ -47,7 +47,7 @@ Start tritonserver docker
 
 ``` bash
 docker pull nvcr.io/nvidia/tritonserver:22.12
-docker run --gpus '"device=0,1"' -it --name speaker_recognition_nemo_triton -p8187:8000 -p8188:8001 -p8189:8002 -v/.../triton-basic:/workspace/ --shm-size=16G nvcr.io/nvidia/tritonserver:22.12-py3
+docker run --gpus '"device=0,1"' -it --name triton_demo -p8187:8000 -p8188:8001 -p8189:8002 -v/.../triton-basic:/workspace/ --shm-size=16G nvcr.io/nvidia/tritonserver:22.12-py3
 ```
 
 In tritonserver docker, run
